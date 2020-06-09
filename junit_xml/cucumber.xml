@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="60.355342">
+<testcase classname="Deal data creation" name="Free CRM Create a new deal scenario" time="60.355342">
+<failure message="org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000&#10;  (Session info: chrome=83.0.4103.61)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-351ON9A6', ip: '192.168.43.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\AADITY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55344}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 511267e02c1a32330a9e5b69e0a33e03&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:437)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#13;&#10;&#9;at stepDefinitions.DealStepDefnition.user_already_on_login_page(DealStepDefnition.java:31)&#13;&#10;&#9;at ✽.Given user is already on Login Page(featureFiles/Deals.feature:5)&#13;&#10;"><![CDATA[Given user is already on Login Page.........................................failed
+When title of login page is Free CRM........................................skipped
+Then user enters username and password......................................skipped
+Then user clicks on login button............................................skipped
+Then user is on home page...................................................skipped
+Then user moves to new deal page............................................skipped
+Then user enters deal details...............................................skipped
+Then Close the browser......................................................skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-351ON9A6', ip: '192.168.43.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\AADITY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55344}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 511267e02c1a32330a9e5b69e0a33e03]]>&#13;<![CDATA[
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)]]>&#13;<![CDATA[
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)]]>&#13;<![CDATA[
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)]]>&#13;<![CDATA[
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:437)]]>&#13;<![CDATA[
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)]]>&#13;<![CDATA[
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)]]>&#13;<![CDATA[
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)]]>&#13;<![CDATA[
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)]]>&#13;<![CDATA[
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)]]>&#13;<![CDATA[
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)]]>&#13;<![CDATA[
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)]]>&#13;<![CDATA[
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)]]>&#13;<![CDATA[
+	at stepDefinitions.DealStepDefnition.user_already_on_login_page(DealStepDefnition.java:31)]]>&#13;<![CDATA[
+	at ✽.Given user is already on Login Page(featureFiles/Deals.feature:5)]]>&#13;<![CDATA[
+]]></failure>
+</testcase>
+</testsuite>
